@@ -1,0 +1,52 @@
+.app-tech-stack {
+    padding: 72px;
+    background-image: url("./notebook-white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    min-width: 320px;
+}
+
+@media (max-width: 1200px) {
+    .app-tech-stack {
+        padding: 72px 36px;
+    }
+}
+
+.app-tech-stack__title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+}
+
+.app-tech-stack__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+@media (max-width: 780px) {
+    .app-tech-stack__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+
+.app-tech-stack__item {
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 1200px) {
+    .app-tech-stack__item {
+        width: 150px;
+        height: 150px;
+    }
+}

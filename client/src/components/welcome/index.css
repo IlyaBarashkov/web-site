@@ -1,0 +1,45 @@
+.app-home {
+    height: 100vh;
+    background-image: url("./notebook-gray.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-home__title {
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.app-home__date {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media (max-width: 780px) {
+    .app-home__title {
+        font-size: 60px;
+    }
+}
+
+.app-home__icon {
+    font-size: 72px!important;
+    margin-top: 72px;
+    border-radius: 50%;
+    color: whitesmoke;
+    cursor: pointer;
+}

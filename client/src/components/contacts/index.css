@@ -1,0 +1,28 @@
+.app-contact {
+    margin: 0 auto;
+    padding: 72px 36px;
+    max-width: 1200px;
+    min-width: 320px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.app-contact__title {
+    margin: 0 0 60px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+.app-contact__social {
+    margin: 60px auto 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.app-contact__icon {
+    font-size: 48px!important;
+    cursor: pointer;
+}
